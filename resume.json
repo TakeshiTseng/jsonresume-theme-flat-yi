@@ -1,0 +1,247 @@
+{
+  "basics": {
+    "name": "Tseng Yi",
+    "label": "Programmer",
+    "picture": "http://s.gravatar.com/avatar/b721195e879c1ccab06a714f9d15b1da",
+    "email": "a86487817@gmail.com",
+    "phone": "",
+    "website": "https://takeshi.tw",
+    "summary": "I am a graduate student from NCTU and my current research topic is application of Software-defined networking. <br>I enjoy learning new things, like new programming languages and tools.&nbsp; Also, I like to participate technical conferences which held by communities, such like COSCUP, SITCON, HITCON and so on.<br>Moreover, I'm a frequent contributor to open source projects. I love to contribute to open source project because it's not only improved my skills but also helped others to make it better.",
+    "location": {},
+    "profiles": []
+  },
+  "work": [
+    {
+      "company": "W2CNLab",
+      "position": "P4 Research Team leader",
+      "website": "",
+      "startDate": "2015-11-01",
+      "endDate": "Present",
+      "summary": "",
+      "highlights": [
+        "Research P4 language and develop it applications.",
+        "Give workshops for P4 language.",
+        "Translate documents into Chinese."
+      ]
+    },
+    {
+      "company": "WinLab",
+      "position": "Research assistant",
+      "website": "",
+      "startDate": "2015-12-01",
+      "endDate": "Present",
+      "summary": "",
+      "highlights": [
+        "Build, Maintain SDN-IP and CORD in NCTU",
+        "Develop P4 application with CORD"
+      ]
+    },
+    {
+      "company": "Cyber Link",
+      "position": "QA intern",
+      "website": "http://tw.cyberlink.com/",
+      "startDate": "2010-07-01",
+      "endDate": "2010-08-30",
+      "summary": "In Quality Assurance team. My mission is to find any bugs in the product.<br>I developed automatic testing tools by using <a href=\"https://www.autoitscript.com/site/autoit/\">Autoit</a> and it helped me complete my jobs quickly.<br>",
+      "highlights": [
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "HITCON",
+      "position": "Staff",
+      "website": "http://hitcon.org",
+      "startDate": "2012",
+      "endDate": "2014",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "organization": "SITCON",
+      "position": "Admin & Agenda Team",
+      "website": "http://sitcon.org",
+      "startDate": "2013",
+      "endDate": "2015",
+      "summary": "",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "Tatung University",
+      "area": "Computer Science and Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2010-09-01",
+      "endDate": "2014-06-01",
+      "gpa": "3.9",
+      "rank": "1/97",
+      "courses": [
+        "I1251A/I1252A - Computer Programming",
+        "I3120 - Advanced Java Programming",
+        "I3120 - Database Systems",
+        "I4010 - Web Application Programming And Security",
+        "I4050 - System Security"
+      ]
+    },
+    {
+      "institution": "National Chiao Tung University",
+      "area": "Computer Science",
+      "studyType": "Master",
+      "startDate": "2014-07-01",
+      "endDate": "Present",
+      "gpa": "",
+      "courses": [
+        "IOC5157 - Free and Open Source Software and Project Collaboration",
+        "IOE5015 - Network Programming",
+        "IOE5048 - Network Security",
+        "IOE5080 - Software-Defined Networks"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "2015 Mobile Hero, SDN Contest",
+      "date": "2015-12-16",
+      "awarder": "Market Potential Award",
+      "summary": "Contest for Software-Defined Networks."
+    },
+    {
+      "title": "Academic Achievement Award",
+      "date": "2015-11-12",
+      "awarder": "",
+      "summary": "NCTU Academic Achievement Award(Rank:16/143)"
+    },
+    {
+      "title": "2013 ACM ICPC NCPU",
+      "date": "2013-07-03",
+      "awarder": "3rd place",
+      "summary": "National programming contest for private universities."
+    },
+    {
+      "title": "2012 ITSA Programming Contest",
+      "date": "2012-12-29",
+      "awarder": "2rd place",
+      "summary": "National programming contest for private universities."
+    }
+  ],
+  "publications": [
+  ],
+  "skills": [
+    {
+      "name": "Software-defined networking application development",
+      "level": "Working knowledge",
+      "keywords": [
+        "Network management application development",
+        "Multiple controller application",
+        "Protocol independent packet processor design"
+      ]
+    },
+    {
+      "name": "Protocol independent switch development",
+      "level": "Working knowledge",
+      "keywords": [
+        "P4 language"
+      ]
+    },
+    {
+      "name": "Web Backend development",
+      "level": "Working knowledge",
+      "keywords": [
+        "RESTful API design",
+        "SQL & NoSQL DB schema design"
+      ]
+    },
+    {
+      "name": "Version control system",
+      "level": "Working knowledge",
+      "keywords": [
+        "git",
+        "gerrit"
+      ]
+    },
+    {
+      "name": "IaaS deployment",
+      "level": "Basic knowledge",
+      "keywords": [
+        "OpenStack deployment"
+      ]
+    },
+    {
+      "name": "Frontend development",
+      "level": "Basic knowledge",
+      "keywords": [
+        "RWD web page design",
+        "Single page web application"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Chinese",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Normal"
+    },
+    {
+      "language": "Japanese",
+      "fluency": "Little(JLPT N5)"
+    }
+  ],
+  "references": [
+  ],
+  "projects": [
+    {
+      "title": "ONOS (Contributor)",
+      "url": "http://onosproject.org",
+      "summary": "ONOS is a new SDN network operating system designed for high availability, performance, scale-out.",
+      "techniques": [
+        "Java",
+        "Software-defined networking",
+        "SDN-IP",
+        "VPLS"
+      ]
+    },
+    {
+      "title": "Ryu (Contributor)",
+      "url": "https://github.com/osrg/ryu",
+      "summary": "Ryu is a component-based software-defined networking (SDN) framework. Ryu provides software components with well defined API that make it easy for developers to create new network management and control applications.",
+      "techniques": [
+        "Python",
+        "Software-defined networking"
+      ]
+    },
+    {
+      "title": "Ryu SDN-IP deployment in Chunghwa telecom laboratories",
+      "summary": "Deploying Ryu SDN-IP to Chunghwa telecom laboratories, and connect CHT-TL to NCTU and NTHU.",
+      "techniques": [
+        "BGP peering",
+        "VLAN",
+        "NEC SDN Switch"
+      ]
+    },
+    {
+      "title": "SDN-IP Example VM (Maintainer)",
+      "url": "https://github.com/sdnds-tw/SDN-IP-Example-VM",
+      "summary": "SDN-IP Example VM (Taiwan NCTU site version)",
+      "techniques": [
+        "Ansible",
+        "ONOS SDN-IP",
+        "Ryu SDN-IP",
+        "Quagga BGP speaker",
+        "GoBGP BGP speaker"
+      ]
+    },
+    {
+      "title": "Ryu SDN-IP (Maintainer)",
+      "url": "https://github.com/sdnds-tw/Ryu-SDN-IP",
+      "summary": "SDN-IP project implemented by Ryu SDN framework.",
+      "techniques": [
+        "Ryu SDN Framework",
+        "BGP"
+      ]
+    }
+  ]
+}
