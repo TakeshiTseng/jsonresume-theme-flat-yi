@@ -1,39 +1,32 @@
 {
   "basics": {
     "name": "Tseng Yi",
-    "label": "Programmer",
+    "label": "Developer",
     "picture": "http://s.gravatar.com/avatar/b721195e879c1ccab06a714f9d15b1da",
     "email": "a86487817@gmail.com",
     "phone": "",
     "website": "https://takeshi.tw",
-    "summary": "I am a graduate student from NCTU and my current research topic is application of Software-defined networking. <br>I enjoy learning new things, like new programming languages and tools.&nbsp; Also, I like to participate technical conferences which held by communities, such like COSCUP, SITCON, HITCON and so on.<br>Moreover, I'm a frequent contributor to open source projects. I love to contribute to open source project because it's not only improved my skills but also helped others to make it better.",
+    "github": "https://github.com/TakeshiTseng",
+    "summary": "I am a graduate student from NCTU, and my current research topic is <b>Software-Defined Networking</b>.<br><br>At the end of 2016, I decided to go aboard to learn new things, so I postponed my master degree and joined <b>Open Networking Foundation/Lab</b> as an internship.<br><br>During the internship, I collaborate with other companies such as <b>Google</b>, <b>Intel</b>, <b>Barefoot</b> and so on. I learned not only new technologies but how to work with other people.<br><br>In my spare time, I love to contribute to open source project because it's is not only improve my skills but also help others to make it better.",
     "location": {},
     "profiles": []
   },
   "work": [
     {
-      "company": "W2CNLab",
-      "position": "P4 Research Team leader",
-      "website": "",
-      "startDate": "2015-11-01",
-      "endDate": "Present",
-      "summary": "",
+      "company": "Open Networking Foundation/Lab",
+      "position": "Intern",
+      "website": "https://www.opennetworking.org/",
+      "startDate": "2017-01-16",
+      "endDate": "2018-02-28",
+      "summary": "During the internship, I work on SDN controller(<a href=\"https://onosproject.org/\">ONOS</a>),  programmable data plane(<a href=\"http://p4.org/\">P4</a>), and next-generation mobile cloud  (<a href=\"https://www.opennetworking.org/solutions/m-cord/\">M-CORD</a>).<br>",
       "highlights": [
-        "Research P4 language and develop it applications.",
-        "Give workshops for P4 language.",
-        "Translate documents into Chinese."
-      ]
-    },
-    {
-      "company": "WinLab",
-      "position": "Research assistant",
-      "website": "",
-      "startDate": "2015-12-01",
-      "endDate": "Present",
-      "summary": "",
-      "highlights": [
-        "Build, Maintain SDN-IP and CORD in NCTU",
-        "Develop P4 application with CORD"
+        "Software-defined networking",
+        "Network operating system",
+        "Programmable network device",
+        "DevOps",
+        "VPLS/MPLS network",
+        "Java",
+        "Python"
       ]
     },
     {
@@ -42,8 +35,9 @@
       "website": "http://tw.cyberlink.com/",
       "startDate": "2010-07-01",
       "endDate": "2010-08-30",
-      "summary": "In Quality Assurance team. My mission is to find any bugs in the product.<br>I developed automatic testing tools by using <a href=\"https://www.autoitscript.com/site/autoit/\">Autoit</a> and it helped me complete my jobs quickly.<br>",
+      "summary": "In Quality Assurance team. My mission is to find any bugs in the product.<br>I developed automatic testing tools by using <a href=\"https://www.autoitscript.com/site/autoit/\">Autoit</a> and it helped me to complete my jobs quickly.<br>",
       "highlights": [
+        "Unit test"
       ]
     }
   ],
@@ -129,50 +123,21 @@
   ],
   "skills": [
     {
-      "name": "Software-defined networking application development",
+      "name": "Software-defined network application development",
       "level": "Working knowledge",
       "keywords": [
         "Network management application development",
-        "Multiple controller application",
-        "Protocol independent packet processor design"
+        "Multi-controller application",
+        "Protocol independent packet processor design",
+        "Virtual network function"
       ]
     },
     {
-      "name": "Protocol independent switch development",
-      "level": "Working knowledge",
-      "keywords": [
-        "P4 language"
-      ]
-    },
-    {
-      "name": "Web Backend development",
+      "name": "Backend development",
       "level": "Working knowledge",
       "keywords": [
         "RESTful API design",
         "SQL & NoSQL DB schema design"
-      ]
-    },
-    {
-      "name": "Version control system",
-      "level": "Working knowledge",
-      "keywords": [
-        "git",
-        "gerrit"
-      ]
-    },
-    {
-      "name": "IaaS deployment",
-      "level": "Basic knowledge",
-      "keywords": [
-        "OpenStack deployment"
-      ]
-    },
-    {
-      "name": "Frontend development",
-      "level": "Basic knowledge",
-      "keywords": [
-        "RWD web page design",
-        "Single page web application"
       ]
     }
   ],
@@ -183,7 +148,7 @@
     },
     {
       "language": "English",
-      "fluency": "Normal"
+      "fluency": "Normal(TOEIC score : 685)"
     },
     {
       "language": "Japanese",
@@ -194,53 +159,38 @@
   ],
   "projects": [
     {
-      "title": "ONOS (Contributor)",
-      "url": "http://onosproject.org",
-      "summary": "ONOS is a new SDN network operating system designed for high availability, performance, scale-out.",
+      "title": "ONOS™",
+      "url": "https://onosproject.org/",
+      "summary": "",
       "techniques": [
-        "Java",
         "Software-defined networking",
-        "SDN-IP",
-        "VPLS"
+        "BGP",
+        "Segment routing",
+        "VPLS/MPLS",
+        "Java"
       ]
     },
     {
-      "title": "Ryu (Contributor)",
-      "url": "https://github.com/osrg/ryu",
-      "summary": "Ryu is a component-based software-defined networking (SDN) framework. Ryu provides software components with well defined API that make it easy for developers to create new network management and control applications.",
+      "title": "CORD®",
+      "url": "http://opencord.org/",
+      "summary": "",
       "techniques": [
-        "Python",
-        "Software-defined networking"
+        "Service provider",
+        "Central office",
+        "Virtual netowkr function (VNF)",
+        "DevOps",
+        "Service function chaining"
       ]
     },
     {
-      "title": "Ryu SDN-IP deployment in Chunghwa telecom laboratories",
-      "summary": "Deploying Ryu SDN-IP to Chunghwa telecom laboratories, and connect CHT-TL to NCTU and NTHU.",
+      "title": "fabric.p4",
+      "url": "https://goo.gl/JvAZE3",
+      "summary": "",
       "techniques": [
-        "BGP peering",
-        "VLAN",
-        "NEC SDN Switch"
-      ]
-    },
-    {
-      "title": "SDN-IP Example VM (Maintainer)",
-      "url": "https://github.com/sdnds-tw/SDN-IP-Example-VM",
-      "summary": "SDN-IP Example VM (Taiwan NCTU site version)",
-      "techniques": [
-        "Ansible",
-        "ONOS SDN-IP",
-        "Ryu SDN-IP",
-        "Quagga BGP speaker",
-        "GoBGP BGP speaker"
-      ]
-    },
-    {
-      "title": "Ryu SDN-IP (Maintainer)",
-      "url": "https://github.com/sdnds-tw/Ryu-SDN-IP",
-      "summary": "SDN-IP project implemented by Ryu SDN framework.",
-      "techniques": [
-        "Ryu SDN Framework",
-        "BGP"
+        "Protocol independent packet processor(P4)",
+        "CORD underlay network",
+        "Segment routing",
+        "VNF offloading"
       ]
     }
   ]
