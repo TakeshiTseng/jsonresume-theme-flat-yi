@@ -52,14 +52,14 @@
             <div class="email">{{.}}</div>
           </div>
           {{/email}}
-          {{#website}}
+          {{#github}}
           <div class="col-sm-6">
-            <strong>Website</strong>
+            <strong>GitHub</strong>
             <div class="website">
               <a href="{{.}}">{{.}}</a>
             </div>
           </div>
-          {{/website}}
+          {{/github}}
         </div>
       </div>
     </section>
@@ -195,6 +195,32 @@
     </section>
     {{/if}}
 
+    {{#if resume.skills.length}}
+    <section id="skills" class="row">
+      <aside class="col-sm-3">
+        <h3>Skills</h3>
+      </aside>
+      <div class="col-sm-9">
+        <div class="row">
+          {{#each resume.skills}}
+          <div class="col-sm-9">
+            <div class="name">
+              <h4>{{name}}</h4> {{#if level}} <b>Level: {{level}}</b> {{/if}}
+            </div>
+            {{#if keywords.length}}
+            <ul class="keywords">
+              {{#keywords}}
+              <li>{{.}}</li>
+              {{/keywords}}
+            </ul>
+            {{/if}}
+          </div>
+          {{/each}}
+        </div>
+      </div>
+    </section>
+    {{/if}}
+
     {{#if resume.awards.length}}
     <section id="awards" class="row">
       <aside class="col-sm-3">
@@ -223,32 +249,6 @@
               {{.}}
             </div>
             {{/summary}}
-          </div>
-          {{/each}}
-        </div>
-      </div>
-    </section>
-    {{/if}}
-
-    {{#if resume.skills.length}}
-    <section id="skills" class="row">
-      <aside class="col-sm-3">
-        <h3>Skills</h3>
-      </aside>
-      <div class="col-sm-9">
-        <div class="row">
-          {{#each resume.skills}}
-          <div class="col-sm-9">
-            <div class="name">
-              <h4>{{name}}</h4> {{#if level}} <b>Level: {{level}}</b> {{/if}}
-            </div>
-            {{#if keywords.length}}
-            <ul class="keywords">
-              {{#keywords}}
-              <li>{{.}}</li>
-              {{/keywords}}
-            </ul>
-            {{/if}}
           </div>
           {{/each}}
         </div>
